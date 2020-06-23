@@ -1,0 +1,139 @@
+/*For Tablet*/
+@media all and (max-width: 1000px) {
+	/*HEADER & FOOTER*/
+	.header-left {
+		width: 25%;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+		color: #1a0a00;
+	}
+
+	#footer-25 {
+		width: 50%;
+	}
+
+	#footer-50 {
+		width: 100%;
+	}
+
+	.footer-wrapper h3 {
+		font-size: 18px;
+	}
+
+	footer {
+		height: 650px;
+	}
+	
+	/*FOOD & BEVERAGE*/
+	.wrapper {
+		height: 450px;
+	}
+
+	.menu {
+		width: 25%;
+		margin: 10px 0;
+	}
+
+	.gambar img {
+		width: 100px;
+	}
+
+	.menu p {
+		font-size: 13px;
+	}
+
+	/*CONTACT-US*/
+	.contact-wrapper {
+		height: 650px;
+	}
+
+}
+
+/*For Smartphone*/
+@media all and (max-width: 670px) {
+	/*HEADER & FOOTER*/
+	.logo {
+		width: 150px;
+		margin-top: 20px;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+		color: #1a0a00;
+	}
+
+	#footer-25 {
+		width: 100%;
+	}
+
+	#footer-50 {
+		width: 100%;
+	}
+
+	.footer-wrapper h3 {
+		font-size: 18px;
+	}
+
+	footer {
+		height: 650px;
+	}
+
+	/*FOOD & BEVERAGE*/
+	.wrapper {
+		height: 1400px;
+	}
+
+	.food {
+		text-align: center;
+	}
+
+	.menu {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.beverage {
+		text-align: center;
+	}
+
+	.text-area {
+		font-size: 14px;
+	}
+
+	/*CONTACT-US*/
+	.contact-wrapper {
+		height: 650px;
+	}
+
+	.contact-form {
+		margin-left: 10px;
+		margin-right: auto;
+	}
+
+	.contact-wrapper h5 {
+		margin-left: 10px;
+	}
+
+	.field {
+		width: 100%;
+	}
+
+	/*ABOUT US*/
+	.profile-wrapper {
+		height: 1750px;
+	}
+
+	.foto-id{
+		width: 100%;
+	}
+}
